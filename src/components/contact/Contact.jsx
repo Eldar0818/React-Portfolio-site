@@ -22,10 +22,10 @@ const Contact = () => {
                         className='form-body'>
                         <h4>Don't want to call or send email?</h4>
                         <h2>Contact me directly</h2>
-                        <input type="text" name='name' placeholder='Your/Company/Team name' />
-                        <input type="text" name='subject' placeholder='Subject' />
-                        <input type="email" name='email' placeholder='Email address'/>
-                        <textarea placeholder='Message' name='message'></textarea>
+                        <input type="text" name='name' placeholder='Your/Company/Team name' required/>
+                        <input type="text" name='subject' placeholder='Subject' required/>
+                        <input type="email" name='email' placeholder='Email address' required/>
+                        <textarea placeholder='Message' name='message' required></textarea>
                         <button type='submit'>Send Message</button>
                     </form>
                 </div>
