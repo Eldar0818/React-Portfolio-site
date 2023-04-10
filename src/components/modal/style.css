@@ -1,0 +1,34 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    background: #12214495;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body{
+    max-width: 540px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--light);
+    padding: 35px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-icon{
+    color: var(--info);
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.modal-body p{
+    font-size: 20px;
+    text-align: center;
+    color: var(--primary);
+}

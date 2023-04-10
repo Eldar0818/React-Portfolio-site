@@ -1,0 +1,27 @@
+:root{
+  --primary: #122144;
+  --secondary: rgb(11, 94, 94);
+  --light: #e0e0e0;
+  --info: #b50b5d;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary);
+  color: var(--light);
+}
