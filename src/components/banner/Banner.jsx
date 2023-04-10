@@ -41,7 +41,7 @@ const Banner = () => {
                 <h4>High level experience in front-end based web development with API integration, Fast delivery and producing quality services and works</h4>
                 <p>Since beginning of my journey as front end developer, I've participated remote works for agencies, organisations and private people. At the same time I collaborated with many talented people successfully to create Website, SPA and PWA for both business and cunsumer use. I offer from wide range of Services, including design to create and fix.</p>
                 <div className='banner-to-contact'>
-                    <a href="#">Contatc me</a>
+                    <a href="#contact">Contatc me</a>
                 </div>
             </article>
         </div>
